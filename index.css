@@ -1,0 +1,209 @@
+.isi p {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: linear-gradient(to top, #15001a, #1a021f, #1d0325, #21042a, #260430, #2a0435, #2e0339, #33023e, #370244, #3c0249, #40014f, #450155);
+    background-size: 150% 150%;
+}
+
+.contentbody {
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.col-2 {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.col-2 img {
+    width: 350px;
+    height: 350px;
+}
+
+.col-2 .isi {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.col-2 .isi .heh {
+    color: goldenrod;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.col-2 ul {
+    list-style-type: none;
+}
+
+.col-2 ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.col-2 a i {
+    font-size: 2rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.col-2 .icon {
+    text-align: left;
+}
+
+.icon .bi {
+    color: #5fc9f3;
+    font-size: 1.5rem;
+}
+
+.icon button {
+    background-color: #5fc9f3;
+    color: rgb(0, 0, 0, 0, 0.05);
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.icon ul li {
+    transition: transform 0.5s;
+}
+
+.icon ul li:hover {
+    transform: scale(1.1);
+}
+
+.infomySkill {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.col-5 {
+    display: flex;
+    align-items: center;
+}
+
+.col-5 ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.col-5 ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.col-5 img {
+    height: 50px;
+}
+
+.col-5 h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.col-3 {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.col-3 .tugas {
+    border: 1px solid #450155;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px #450155;
+    margin: 0px 20px;
+    background-color: #2e0339;
+    color: #ffff;
+    padding: 30px;
+}
+.tugas a{
+    color: #5fc9f3;
+    text-decoration: none;
+    text-align: center;
+}
+.myContact {
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    text-align: center;
+    gap: 20px;
+    border: 1px solid #450155;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px #450155;
+    background-color: #2e0339;
+    width: 70%;
+    margin: 75px auto;
+}
+
+.aboutMe {
+    text-align: left;
+    flex-basis: 35%;
+    margin: 10px 0px;
+    color: #ffff;
+    padding-left: 40px;
+}
+
+.aboutMe h4 {
+    font-size: 1.5rem;
+}
+
+.aboutMe p {
+    font-size: 1rem;
+}
+
+.sendEmail {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sendEmail form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    margin: 10px 0;
+    background: black;
+    color: #ffff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    width: 50%;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px 0;
+    display: inline-block;
+    cursor: pointer;
+    display: inline-block;
+}

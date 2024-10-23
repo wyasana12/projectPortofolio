@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.02);
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    height: 8vh;
+}
+.navBar .myLogo{
+    padding-left: 30px;
+}
+.navBar ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.navBar ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+.navBar a:hover {
+    color: rgb(200, 170, 100);
+}
